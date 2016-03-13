@@ -1,0 +1,20 @@
+html
+  head
+    title Kys Craigslist Application
+  body
+    table(border="1")
+      tr
+        td Image
+        td Title
+        td Price
+        td Link
+      -if( thingsIWant )
+        each thing in thingsIWant
+          tr
+            td
+              img(src="#{thing.pics[0]}")
+            td #{thing.title}
+            td $ #{thing.price}
+            td 
+              a(href="#{thing.url}")
+                GO THERE I WANT IT!!!!

@@ -1,0 +1,8 @@
+{
+  "name": "kys-craigslis-app",
+  "dependencies": {
+    "express": "*",
+    "jade": "^1.11.0",
+    "node-craigslist": "git://github.com/noahjs/node-craigslist"
+  }
+}
